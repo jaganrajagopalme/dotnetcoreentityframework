@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using entityframeworkDotnetcore.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,8 +26,11 @@ namespace entityframeworkDotnetcore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<EmployeeContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("Devconnection")));
-            
+            //  services.AddDbContext<EmployeeContext>(options=>options.usesqlserver(Configuration.GetConnectionString("Devconnection")));
+            //services.AddDbContext<EmployeeContext>(options => options.UseSqlserver());
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
