@@ -8639,19 +8639,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\jaganr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\entityapps\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\entityframeworkDotnetcore.csproj",
+      "projectUniqueName": "D:\\Jagan\\Projects\\gitrepoentityframework\\dotnetcoreentityframework\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\entityframeworkDotnetcore.csproj",
       "projectName": "entityframeworkDotnetcore",
-      "projectPath": "C:\\Projects\\entityapps\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\entityframeworkDotnetcore.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\entityapps\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\obj\\",
+      "projectPath": "D:\\Jagan\\Projects\\gitrepoentityframework\\dotnetcoreentityframework\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\entityframeworkDotnetcore.csproj",
+      "packagesPath": "C:\\Users\\jaganr\\.nuget\\packages\\",
+      "outputPath": "D:\\Jagan\\Projects\\gitrepoentityframework\\dotnetcoreentityframework\\entityframeworkDotnetcore\\entityframeworkDotnetcore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jaganr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8726,7 +8726,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

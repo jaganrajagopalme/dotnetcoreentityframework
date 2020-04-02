@@ -20,6 +20,7 @@ namespace entityframeworkDotnetcore.Controllers
 
         public IActionResult Index()
         {
+            //just adding the view
             return View();
         }
 
