@@ -43,9 +43,17 @@ namespace entityframeworkDotnetcore.Controllers
         }
 
         // GET: sample/Create
-        public IActionResult Create()
+        public IActionResult AddorEdit(int Id=0)
         {
-            return View();
+            if (Id == 0)
+            {
+                return View();
+            }
+            else
+            {
+                var employee = _context.Employees.Find(Id);
+                return View(employee);
+            }
         }
 
         // POST: sample/Create
@@ -53,11 +61,19 @@ namespace entityframeworkDotnetcore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeId,EmployeName,Position,OfficeLocation")] Employee employee)
+        public async Task<IActionResult> AddorEdit([Bind("EmployeeId,EmployeName,Position,OfficeLocation")] Employee employee)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(employee);
+                if (employee.EmployeeId == 0)
+                {
+                   await _context.AddAsync(employee);
+                }
+
+                else
+                {
+                    _context.Update(employee);
+                }
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

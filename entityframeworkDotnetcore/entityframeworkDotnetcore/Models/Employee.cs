@@ -12,11 +12,13 @@ namespace entityframeworkDotnetcore.Models
         [Key]
         public int EmployeeId { get; set; }
         
-        [Column("nvarchar(50)")]
+        [DataType("nvarchar(50)")]
+        [Display(Name ="Employee Name"),Required(ErrorMessage ="The Field is Requried")]
         public string EmployeName { get; set; }
-        [Column("nvarchar(50)")]
+
+        [DataType("nvarchar(50)")]        
         public string Position { get; set; }
-        [Column("nvarchar(50)")]
+        [DataType("nvarchar(50)")]
         public string OfficeLocation { get; set; }
     }
 }

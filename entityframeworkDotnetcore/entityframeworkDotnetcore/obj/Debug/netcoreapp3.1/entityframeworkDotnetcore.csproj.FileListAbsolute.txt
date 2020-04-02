@@ -234,8 +234,8 @@ C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\D
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\entityframeworkDotnetcore.pdb
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\entityframeworkDotnetcore.genruntimeconfig.cache
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\entityframeworkDotnetcore.csprojAssemblyReference.cache
-C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\Create.cshtml.g.cs
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\Delete.cshtml.g.cs
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\Details.cshtml.g.cs
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\Edit.cshtml.g.cs
 C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\Index.cshtml.g.cs
+C:\Projects\entityapps\entityframeworkDotnetcore\entityframeworkDotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\sample\AddorEdit.cshtml.g.cs
