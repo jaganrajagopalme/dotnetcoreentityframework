@@ -2,7 +2,7 @@
 phases:
   pre_build:
     commands:
-      - dotnet restore  
+      - dotnet restore  entityframeworkDotnetcore\entityframeworkDotnetcore\
   build:
     commands:
       - dotnet restore

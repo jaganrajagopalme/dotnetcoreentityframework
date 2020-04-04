@@ -9,4 +9,4 @@ phases:
       - dotnet publish -c release -o ./build_output .\entityframeworkDotnetcore\entityframeworkDotnetcore\entityframeworkDotnetcore.csproj
 artifacts:
   files:
-    - .\entityframeworkDotnetcore\entityframeworkDotnetcore\bin\Debug\netcoreapp3.1\*
+    - .\build_output
